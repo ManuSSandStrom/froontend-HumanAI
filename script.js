@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         try {
             console.log('Sending request to backend...'); // Debug log
-            const response = await fetch('http://localhost:3000/humanize', {                method: 'POST',
+            const response = await fetch('https://humanizer-backend-6ypi.vercel.app/', {                method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                 },
