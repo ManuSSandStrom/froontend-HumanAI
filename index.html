@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Humanizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>MANU AI Humanizer</h1>
+    </header>
+    <main>
+        <h2>Convert AI Text to Human-Like Text</h2>
+        <textarea id="inputText" placeholder="Paste your AI-generated text here (max 10,000 characters)" maxlength="10000"></textarea>
+        <p><span id="charCount">0</span>/10000 characters</p>
+        <button id="humanizeBtn">Humanize</button>
+        <div id="loader" style="display: none;">Processing...</div>
+        <textarea id="outputText" placeholder="Humanized text will appear here" readonly></textarea>
+        <button id="copyBtn" disabled>Copy Output</button>
+    </main>
+    <footer>
+        <p>&copy; 2025 AI Humanizer</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
